@@ -1,0 +1,132 @@
+.navBar{
+    position: fixed;
+    background: var(--bg2);
+    width: 9.5rem;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navImgContainer{    
+    width: 100%;
+    height: 150px;
+    background: var(--black);
+    line-height: 0%;
+}
+
+.linkNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    line-height: 0%;
+}
+
+.titleNav{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textNav{
+    color: #fff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlist{    
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+
+.listcontainer{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    border-top: 1px solid var(--border);
+    cursor: pointer;
+}
+
+.listItem{
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.lastitem{
+    border-bottom: 1px solid var(--border);
+}
+
+.navlist .listItem:hover{
+    color: var(--green);
+    transition: color 0.5s;
+}
+
+.navlist .listItem:focus{
+    color: var(--green);
+}
+
+Link{
+    text-decoration: none;
+}
+
+.redesContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--gray);
+}
+
+.redesContainer a{
+    text-decoration: none;
+    color:var(--gray);
+}
+
+.redesContainer a:hover{
+    color: var(--green);
+    transition: color 0.5s;
+}
+
+.redesContainer svg{
+    width: 20px;  
+}
+
+.Sebas{
+    display: block;  
+    color: #fff;
+    margin: 0;
+    font-size: 100px;
+    line-height: 7rem;
+    top: 300px;
+    color: var(--red);
+    text-shadow: -5px -3px var(--green);
+}

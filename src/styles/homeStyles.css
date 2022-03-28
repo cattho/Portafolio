@@ -1,0 +1,60 @@
+.homeTitle{
+    display: block;  
+    color: #fff;
+    margin: 0;
+    font-size: 100px;
+    line-height: 7rem;
+    position: relative;
+    top: 300px;    
+}
+
+.shadowText{
+    color: var(--red);
+    text-shadow: -5px -3px var(--green);
+}
+
+.jump{
+    display: inline-flex;  
+}
+
+.spaceCap{
+    margin-right: 1rem;
+}
+
+
+.jump:hover{
+    color: var(--green);
+    transition: color 0.5s;  
+    animation: rubberBand ;
+    animation-duration: 1s;
+}
+
+.subtitleHome{
+    position: relative;
+    top: 260px;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    color: var(--gray);
+}
+
+.homeButton{
+    background: none;
+    border: 1px solid var(--green);
+    color: var(--green);
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-family: "open sans", sans-serif;
+    text-decoration: none;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    top: 250px;
+    cursor: pointer;
+}
+
+.homeButton:hover{
+    background: var(--green);
+    color: var(--black);
+    font-weight: bold;
+    transition: background 2s;
+}

@@ -1,0 +1,35 @@
+@import './navBarStyles.css';
+@import './homeStyles.css';
+@import './skillsStyles.css';
+@import './aboutStyles.css';
+@import './contactStyles.css';
+
+
+/* paleta de colores */
+:root{
+  --bg: #1d1d1d;
+  --bg2:#181818;
+  --black: #000000;
+  --gray:#8c9096;
+  --green:#05fdd8;
+  --border:#282828;
+  --red:#fd2155;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding-left: 13rem;
+  font-family: 'Open Sans', sans-serif;
+  background: var(--bg);
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}

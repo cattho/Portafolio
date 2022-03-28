@@ -1,0 +1,109 @@
+.skills-page{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.text-zone{
+    width: 50%;
+    justify-content: center;
+    margin-right:15px;
+}
+
+.titleSkills{
+    font-size: 50px;
+    color: var(--green);    
+}
+
+.titleSkills:hover{
+    animation: rubberBand 2s;
+}
+
+.textSkills{
+    color: #fff;
+    line-height: 2rem;
+}
+
+.linkText{
+    text-decoration: none;
+    color: var(--green);
+}
+
+.skills-details{
+    width: 40%;
+}
+
+.textSkillsDetail{
+    color: #fff;
+    font-weight: bold;
+}
+
+.contourBars{
+    border-radius: 10px;
+    width: 100%;
+    height: 2px;
+    background: var(--border);
+}
+
+.barRed{
+    width: 40%;
+    height: 2px;
+    background: var(--red);
+    display: block;
+    border-radius: 10px;
+}
+
+.barBlue{
+    width: 75%;
+    height: 2px;
+    background: var(--green);
+    display: block;
+    border-radius: 10px;    
+}
+
+.barPurple{
+    width: 85%;
+    height: 2px;
+    background: purple;
+    display: block; 
+    border-radius: 10px;
+}
+
+.barYellow{
+    width: 45%;
+    height: 2px;
+    background: yellow;
+    display: block; 
+    border-radius: 10px;
+}
+
+.barblue2{
+    width: 45%;
+    height: 2px;
+    background: aqua;
+    display: block;
+    border-radius: 10px;
+}
+
+.certifications{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.cardCerti{
+    width: 270px;
+    height: 120px;
+    background: var(--border);
+    cursor: pointer;
+    padding: 25px;
+}
+
+.cardCerti a{
+    text-decoration: none;
+}
+
+.textCard{
+    color: var(--gray);
+}
