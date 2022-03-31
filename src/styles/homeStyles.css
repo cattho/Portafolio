@@ -52,6 +52,23 @@
     cursor: pointer;
 }
 
+.homeButton2{
+    background: none;
+    border: 1px solid var(--green);
+    color: var(--green);
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-family: "open sans", sans-serif;
+    text-decoration: none;
+    width: 80%;
+    height: 50px;
+    bottom: -350px;
+    left: 130px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
 .homeButton:hover{
     background: var(--green);
     color: var(--black);

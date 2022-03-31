@@ -62,4 +62,26 @@ form textarea:focus{
     height: 100vh;
     background: none;
 }
+
+.contactButton{
+    background: none;
+    border: 1px solid var(--green);
+    color: var(--green);
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-family: "open sans", sans-serif;
+    text-decoration: none;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    left: 350px;
+    position: relative;
+}
+
+.contactButton:hover{
+    background: var(--green);
+    color: var(--black);
+    font-weight: bold;
+    transition: background 2s;
+}
  

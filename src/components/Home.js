@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import About from './About'
+import Contact from './Contact'
+import Skills from './Skills'
 
 const Home = () => {
   return (
@@ -46,6 +49,12 @@ const Home = () => {
       <h5 className='subtitleHome'>Desorrollador Front End</h5>
 
       <Link to='/contact'><button className='homeButton'>Contactame!</button></Link>
+
+      <div className='scrollPage'>
+        <About />
+        <Skills />
+        <Link to='/contact'><button className='homeButton2'>Contactame!</button></Link>
+      </div>
     </div>
   )
 }
