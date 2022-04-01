@@ -6,7 +6,7 @@ import Skills from './Skills'
 
 const Home = () => {
   return (
-    <div>
+    <div className='homeContainer'>
       <h1 className='homeTitle'>
         <span className='jump'>H</span>
         <span className='jump'>o</span>
@@ -50,11 +50,11 @@ const Home = () => {
 
       <Link to='/contact'><button className='homeButton'>Contactame!</button></Link>
 
-      <div className='scrollPage'>
+      {/* <div className='scrollPage'>
         <About />
         <Skills />
         <Link to='/contact'><button className='homeButton2'>Contactame!</button></Link>
-      </div>
+      </div> */}
     </div>
   )
 }
