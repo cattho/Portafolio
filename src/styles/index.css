@@ -39,29 +39,64 @@ code {
   body{
     display: flex;
     justify-content: center;    
-    padding: 0;
-    margin: 0;    
+    padding: 2rem;
+    margin: 0;
+    box-sizing: border-box;    
   }
 
   .navBar{
     display: none;
   }
    .homeContainer{
+     top: 15px;
      padding: 0;
      text-align: center;
-     height: 100vh;
    }
 
    .homeTitle{
      font-size: 3.5rem;
-     line-height: 3rem;
+     line-height: 4rem;
+     top: 5rem;
+     margin: 0;
+   }
+
+   .subtitleHome{
+     top: 30px;
+
+   }
+
+   .homeButton{
+     top: 0;
+   }
+
+   /* skills */
+   .skills-page{
+     flex-direction: column;
+     width: 100%;
+     height: 100vh;
+     top: 0;
+   }
+
+   .text-zone{
+     width: 100%;
+     text-align: center;
+   }
+
+   .skills-details{
+     width: 100%;
+   }
+
+   .certifications{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     text-align: center;
    }
 }
 
 
 
-@media (min-width:700px) {
+@media (min-width:751px) {
   .scrollPage{
     display: none;
-  }    
+  }   
 }

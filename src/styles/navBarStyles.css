@@ -2,7 +2,7 @@
     position: fixed;
     background: var(--bg2);
     width: 9.5rem;
-    height: 100vh;
+    height: auto;
     top: 0;
     left: 0;
     right: auto;

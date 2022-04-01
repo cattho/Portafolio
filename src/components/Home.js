@@ -49,12 +49,11 @@ const Home = () => {
       <h5 className='subtitleHome'>Desorrollador Front End</h5>
 
       <Link to='/contact'><button className='homeButton'>Contactame!</button></Link>
-
-      {/* <div className='scrollPage'>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <div className='scrollPage'>
         <About />
         <Skills />
-        <Link to='/contact'><button className='homeButton2'>Contactame!</button></Link>
-      </div> */}
+      </div>
     </div>
   )
 }
