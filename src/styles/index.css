@@ -35,9 +35,10 @@ code {
 }
 
 
-@media (max-width:320px) {
+@media (max-width:750px) {
   body{
-    
+    display: flex;
+    justify-content: center;    
     padding: 0;
     margin: 0;    
   }
@@ -48,11 +49,11 @@ code {
    .homeContainer{
      padding: 0;
      text-align: center;
-     margin: 0 auto;
+     height: 100vh;
    }
 
    .homeTitle{
-     font-size: 2.5rem;
+     font-size: 3.5rem;
      line-height: 3rem;
    }
 }
