@@ -49,7 +49,7 @@ const Home = () => {
       <h5 className='subtitleHome'>Desorrollador Front End</h5>
 
       <Link to='/contact'><button className='homeButton'>Contactame!</button></Link>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <br/>
       <div className='scrollPage'>
         <About />
         <Skills />
