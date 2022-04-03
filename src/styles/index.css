@@ -35,21 +35,21 @@ code {
 }
 
 
-@media (max-width:750px) {
+@media (max-width:450px) {
+
   body{
-    display: flex;
     justify-content: center;    
     padding: 2rem;
     margin: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;   
   }
 
   .navBar{
     display: none;
   }
    .homeContainer{
+     align-items: center;
      top: 15px;
-     padding: 0;
      text-align: center;
    }
 
@@ -69,12 +69,18 @@ code {
      top: 0;
    }
 
+   /* about */
+   .animationAbout{
+     width: 100%;
+     border: 1px solid red;
+   }
+
    /* skills */
    .skills-page{
-     flex-direction: column;
-     width: 100%;
      height: 100vh;
-     top: 0;
+     border: 1px solid yellow;
+     flex-direction: column;
+     justify-content: center;
    }
 
    .text-zone{
@@ -87,15 +93,16 @@ code {
    }
 
    .certifications{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
      text-align: center;
    }
 }
 
 
 
-@media (min-width:751px) {
+@media (min-width:451px) {
   .scrollPage{
     display: none;
   }   
