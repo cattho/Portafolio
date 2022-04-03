@@ -54,7 +54,7 @@ code {
    }
 
    .homeTitle{
-     font-size: 3.3rem;
+     font-size: 3rem;
      line-height: 4rem;
      top: 5rem;
      margin: 0;
@@ -72,14 +72,12 @@ code {
    /* about */
    .animationAbout{
      width: 100%;
-     border: 1px solid red;
      padding: 0%;
    }
 
    /* skills */
    .skills-page{
      margin-top: 15px;
-     border: 1px solid yellow;
      flex-direction: column;
      justify-content: center;
    }
