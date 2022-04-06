@@ -1,10 +1,19 @@
 import React from 'react'
+import { useForm } from '../hooks/useForm'
 
 const Contact = () => {
 
-  const handleSubmit= (e) =>{
+  const [data, handleInputChange] = useForm({
+    nombre: '',
+    email: '',
+    asunto: '',
+    mensaje: ''
+  });
+  const { nombre, email, asunto, mensaje } = data;
+
+  const handleSubmit = (e) => {
     e.preventDefault()
-  }
+  };
 
   return (
     <div className='contact-page'>
@@ -28,11 +37,11 @@ const Contact = () => {
         <form onSubmit={handleSubmit}>
           <p className='textSkills ml'>Estoy interesado en oportunidades para conseguir mi primer empleo. Sin embargo si tienes otra petición o pregunta, no dudes en hacermelo saber!</p>
           <div className='NameEmail'>
-            <input className='inputContact midIn' placeholder='Nombre' type='text' />
-            <input className='inputContact midIn' placeholder='Email' type='email' />
+            <input className='inputContact midIn' placeholder='Nombre' type='text' name='nombre' value={nombre} onChange={handleInputChange} />
+            <input className='inputContact midIn' placeholder='Email' type='email' name='email' value={email} onChange={handleInputChange} />
           </div>
-          <input className='inputContact' type='text' placeholder='Asunto' />
-          <textarea className='inputContact' type='text' placeholder='Mensaje' />
+          <input className='inputContact' type='text' placeholder='Asunto' name='asunto' value={asunto} onChange={handleInputChange} />
+          <textarea className='inputContact' type='text' placeholder='Mensaje' name='mensaje' value={mensaje} onChange={handleInputChange} />
           <button type='submit' className='contactButton'>Enviar Mensaje!</button>
         </form>
       </div>

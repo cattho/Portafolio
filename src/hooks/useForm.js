@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 export const useForm = (initialState={}) =>{
     const [data, setData] = useState(initialState)
 
@@ -12,5 +14,5 @@ export const useForm = (initialState={}) =>{
         console.log(data, 'estoy en el useForm');
     }
 
-    return[datos,handleInputChange,reset]
+    return[data,handleInputChange,reset]
 }

@@ -11,7 +11,8 @@ const data = [
   { value: 'Git', count: 30 },
   { value: 'Firebase', count: 30 },
   { value: 'NPM', count: 30 },
-  { value: 'SCRUM', count: 30 }
+  { value: 'SCRUM', count: 30 },
+  { value: 'React-REDUX', count:30}
 ]
 
 
