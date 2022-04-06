@@ -63,8 +63,7 @@ code {
    .subtitleHome{
      top: 30px;
      font-size: 1.5rem;
-     text-align: center;
-
+     text-align: center;  
    }
 
    .homeButton{
@@ -98,6 +97,30 @@ code {
      flex-direction: column;
      align-items: center;
      text-align: center;
+   }
+   
+   /* contact */
+
+   .contact-page{
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .NameEmail input{
+     width: 100%;
+   }
+
+  .formContainer{
+     width: 100%;
+   }
+
+   .contactButton{
+    left: 30px;
+   }
+
+   .mapContainer{
+     width: 80%;
    }
 }
 
