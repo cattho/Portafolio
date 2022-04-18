@@ -11,7 +11,6 @@ export const useForm = (initialState={}) =>{
         setData({...data,
         [target.name]:target.value
         })
-        console.log(data, 'estoy en el useForm');
     }
 
     return[data,handleInputChange,reset]

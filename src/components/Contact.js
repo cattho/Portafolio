@@ -35,7 +35,7 @@ const Contact = () => {
 
 
         <form onSubmit={handleSubmit}>
-          <p className='textSkills ml'>Estoy interesado en oportunidades para conseguir mi primer empleo. Sin embargo si tienes otra petición o pregunta, no dudes en hacermelo saber!</p>
+          <p className='textSkills ml'>Estoy interesado en oportunidades para conseguir mi primer empleo. Sin embargo si tienes otra petición o pregunta, no dudes en hacérmelo saber!</p>
           <div className='NameEmail'>
             <input className='inputContact midIn' placeholder='Nombre' type='text' name='nombre' value={nombre} onChange={handleInputChange} />
             <input className='inputContact midIn' placeholder='Email' type='email' name='email' value={email} onChange={handleInputChange} />
@@ -47,7 +47,7 @@ const Contact = () => {
       </div>
 
       <div className='mapContainer'>
-        <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15911.337903381313!2d-75.21289915!3d4.4418912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1648437065651!5m2!1ses!2sco" loading="lazy" />
+        <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15911.365769482707!2d-75.22902205119568!3d4.440599271119495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c4edeeb6c2c3%3A0xa88c4b7af97bed1!2sCl.%2031a%20%237b-6%2C%20Ibagu%C3%A9%2C%20Tolima!5e0!3m2!1ses!2sco!4v1650288949040!5m2!1ses!2sco" loading="lazy" />
       </div>
     </div>
   )

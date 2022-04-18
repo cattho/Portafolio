@@ -44,6 +44,7 @@ const Home = () => {
         <span className='jump'> w</span>
         <span className='jump'>e</span>
         <span className='jump'>b</span>
+        <span className='jump'>.</span>
       </h1>
 
       <h5 className='subtitleHome'>Desorrollador Front End</h5>

@@ -77,7 +77,7 @@ code {
    }
 
    /* skills */
-   .skills-page{
+   .skills-page, .contact-page{
      margin-top: 15px;
      flex-direction: column;
      justify-content: center;
@@ -99,13 +99,7 @@ code {
      text-align: center;
    }
    
-   /* contact */
-
-   .contact-page{
-     width: 100%;
-     flex-direction: column;
-     align-items: center;
-   }
+   /* contact */  
 
    .NameEmail input{
      width: 100%;

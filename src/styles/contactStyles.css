@@ -51,7 +51,6 @@ form textarea:focus{
 }
 
 .mapContainer{
-    border: 1px solid yellow;
     width: 50%;
     margin-left: 5rem;
 }
