@@ -3,6 +3,7 @@
 @import './skillsStyles.css';
 @import './aboutStyles.css';
 @import './contactStyles.css';
+@import './cards.css';
 
 
 /* paleta de colores */
@@ -115,6 +116,12 @@ code {
 
    .mapContainer{
      width: 80%;
+   }
+
+   /* trabajo */
+
+   .cardsContainer{
+     grid-template-columns: 1fr;
    }
 }
 
