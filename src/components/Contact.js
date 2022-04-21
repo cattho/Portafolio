@@ -1,8 +1,11 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
+import { sendDataAsync } from '../actions/userAction';
 import { useForm } from '../hooks/useForm'
 
 const Contact = () => {
 
+  const dispatch = useDispatch()
   const [data, handleInputChange] = useForm({
     nombre: '',
     email: '',
@@ -13,7 +16,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    dispatch(sendDataAsync(nombre,email,asunto,mensaje))
   };
+
+ 
+  
 
   return (
     <div className='contact-page'>

@@ -17,6 +17,11 @@
     color: var(--green);
 }
 
+.card h3 a{
+    text-decoration: none;
+    color: var(--green);
+}
+
 .cardImg{
     width: 100%;
     height: 20rem;
