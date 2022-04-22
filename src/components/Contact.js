@@ -6,7 +6,7 @@ import { useForm } from '../hooks/useForm'
 const Contact = () => {
 
   const dispatch = useDispatch()
-  const [data, handleInputChange] = useForm({
+  const [data, handleInputChange, reset] = useForm({
     nombre: '',
     email: '',
     asunto: '',
@@ -17,6 +17,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     dispatch(sendDataAsync(nombre,email,asunto,mensaje))
+    reset()
   };
 
  

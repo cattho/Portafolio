@@ -9,7 +9,7 @@ const Work = () => {
                 <Card>
                     <Card.Img className='cardImg' src="https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg" />
                     <Card.Body>
-                        <Card.Title><h3><a href='https://pokeappcattho.netlify.app' target='_blank'>Pokédex</a></h3></Card.Title>
+                        <Card.Title><h3><a href='https://vocal-begonia-d38df3.netlify.app' target='_blank'>Pokédex</a></h3></Card.Title>
                         <Card.Text>
                             Aplicación creada con ReactJS consumiendo la API de Pokemon, implementacion de Redux con sistema de proteccion de rutas, inicio de sesion con firebase para google, facebook y autenticacion de correo electronico.
                         </Card.Text>
