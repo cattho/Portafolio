@@ -55,7 +55,7 @@ const Contact = () => {
       </div>
 
       <div className='mapContainer'>
-        <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15911.365769482707!2d-75.22902205119568!3d4.440599271119495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c4edeeb6c2c3%3A0xa88c4b7af97bed1!2sCl.%2031a%20%237b-6%2C%20Ibagu%C3%A9%2C%20Tolima!5e0!3m2!1ses!2sco!4v1650288949040!5m2!1ses!2sco" loading="lazy" />
+        <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127295.79546459236!2d-75.25681815558085!3d4.412286216249967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c491115f4d5f%3A0xe0cae43859d2401e!2zSWJhZ3XDqSwgVG9saW1h!5e0!3m2!1ses-419!2sco!4v1650742161637!5m2!1ses-419!2sco" loading="lazy" />
       </div>
     </div>
   )
