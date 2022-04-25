@@ -1,8 +1,10 @@
 .contact-page{
     display: flex;
+    flex-direction: row;
     align-items: center;
     width:100%;
     min-height: 100vh;
+    gap: 5rem;
 }
 
 .formContainer{ 
@@ -11,24 +13,22 @@
 
 .inputContact{
     background: var(--border);
-    width: 92%;
+    width: 95.7%;
     padding: 15px;
-    margin: 10px;
-}
-
-.midIn{
-    width: 42.34%;
+    margin: 10px 0;
 }
 
 form input{
     outline: 0;
     border-width: 0px;
     color: var(--gray);
-    cursor: text;       
+    cursor: text;
+    width: 100%;       
 }
 
 form textarea{
     resize: none;
+    width: 100%;
     height: 150px;
     outline: 0;
     border-width: 0px;
@@ -52,7 +52,6 @@ form textarea:focus{
 
 .mapContainer{
     width: 50%;
-    margin-left: 5rem;
 }
 
 .map{
@@ -61,7 +60,17 @@ form textarea:focus{
     background: none;
 }
 
+.buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    float: right;
+}
+
 .contactButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: none;
     border: 1px solid var(--green);
     color: var(--green);

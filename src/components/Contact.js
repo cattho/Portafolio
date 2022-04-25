@@ -1,5 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
+import Swal from 'sweetalert2';
 import { sendDataAsync } from '../actions/userAction';
 import { useForm } from '../hooks/useForm'
 
@@ -16,12 +17,12 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    dispatch(sendDataAsync(nombre,email,asunto,mensaje))
+    dispatch(sendDataAsync(nombre, email, asunto, mensaje))
     reset()
   };
 
- 
-  
+
+
 
   return (
     <div className='contact-page'>
@@ -45,12 +46,22 @@ const Contact = () => {
         <form onSubmit={handleSubmit}>
           <p className='textSkills ml'>Estoy interesado en oportunidades para conseguir mi primer empleo. Sin embargo si tienes otra petición o pregunta, no dudes en hacérmelo saber!</p>
           <div className='NameEmail'>
-            <input className='inputContact midIn' placeholder='Nombre' type='text' name='nombre' value={nombre} onChange={handleInputChange} />
-            <input className='inputContact midIn' placeholder='Email' type='email' name='email' value={email} onChange={handleInputChange} />
+            <input className='inputContact midIn' placeholder='Nombre' type='text' name='nombre' value={nombre} onChange={handleInputChange} required />
+            <input className='inputContact midIn' placeholder='Email' type='email' name='email' value={email} onChange={handleInputChange} required />
           </div>
-          <input className='inputContact' type='text' placeholder='Asunto' name='asunto' value={asunto} onChange={handleInputChange} />
-          <textarea className='inputContact' type='text' placeholder='Mensaje' name='mensaje' value={mensaje} onChange={handleInputChange} />
-          <button type='submit' className='contactButton'>Enviar Mensaje!</button>
+          <input className='inputContact' type='text' placeholder='Asunto' name='asunto' value={asunto} onChange={handleInputChange} required />
+          <textarea className='inputContact' type='text' placeholder='Mensaje' name='mensaje' value={mensaje} onChange={handleInputChange} required />
+          <div className='buttonContainer'>
+            <button type='submit' className='contactButton' onClick={() => Swal.fire({
+              background: '#1d1d1d',
+              color: '#8c9096',
+              position: 'center',
+              icon: 'success',
+              title: 'Gracias por contactarme, pronto me pondre en contacto contigo',
+              showConfirmButton: true,
+              timer: 3500
+            })}>Enviar Mensaje!</button>
+          </div>
         </form>
       </div>
 
