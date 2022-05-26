@@ -57,13 +57,13 @@ const Skills = () => {
         <h1 className='textSkillsDetail' >Certificaciones</h1>
         <div className='certifications'>
           <div className='cardCerti'>
-            <h3 className='textSkillsDetail'>Academia Geek</h3>
+            <a href='https://res.cloudinary.com/dfp8qduho/image/upload/v1651589501/ofhrji2cq7rlmntbmtm9.jpg' target='_blank'><h3 className='textSkillsDetail'>Academia Geek</h3></a>
             <p className='textCard'>Desarrollador Front-end</p>
             <p className='textCard'>Diciembre 2021-Marzo 2022</p>
           </div>
 
           <div className='cardCerti'>
-            <a  href='https://www.freecodecamp.org/certification/Cattho/front-end-development-libraries' target='_blank'><h3 className='textSkillsDetail'>Front End Development Libraries</h3></a>
+            <a href='https://www.freecodecamp.org/certification/Cattho/front-end-development-libraries' target='_blank'><h3 className='textSkillsDetail'>Front End Development Libraries</h3></a>
             <p className='textCard'>Febrero 2022</p>
           </div>
 
@@ -71,7 +71,7 @@ const Skills = () => {
             <a href='https://www.freecodecamp.org/certification/Cattho/javascript-algorithms-and-data-structures' target='_blank'><h3 className='textSkillsDetail'>JavaScript Algorithms and Data Structures</h3></a>
             <p className='textCard'>Febrero 2022</p>
           </div>
-          
+
         </div>
       </div>
     </div>

@@ -7,11 +7,11 @@ const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOO
 
 const reducers= combineReducers({
     contact: contactInfo
-})
+});
 
 export const store= createStore(
     reducers,
     composeEnhancers(
         applyMiddleware(thunk)
     )
-)
+);

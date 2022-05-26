@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import About from './About'
 import Contact from './Contact'
+import Cursor from './Cursor'
 import Skills from './Skills'
 
 const Home = () => {
   return (
     <div className='homeContainer'>
+      <Cursor />
       <h1 className='homeTitle'>
         <span className='jump'>H</span>
         <span className='jump'>o</span>

@@ -27,6 +27,9 @@
     transition: color 0.5s;  
     animation: rubberBand ;
     animation-duration: 1s;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
 }
 
 .subtitleHome{

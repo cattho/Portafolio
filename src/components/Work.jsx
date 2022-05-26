@@ -21,7 +21,7 @@ const Work = () => {
                     <Card.Body>
                         <Card.Title><h3><a href='https://block-master-sebas.netlify.app' target="_blank">Block Master- Aplicación de peliculas</a></h3></Card.Title>
                         <Card.Text>
-                        Aplicación creada con ReactJS consumiendo la API de TheMovieDB, implementacion de Redux con sistema de proteccion de rutas, implementacion de CRUD, inicio de sesion con firebase para google, facebook y autenticacion de correo electronico.
+                            Aplicación creada con ReactJS consumiendo la API de TheMovieDB, implementacion de Redux con sistema de proteccion de rutas, implementacion de CRUD, inicio de sesion con firebase para google, facebook y autenticacion de correo electronico.
                         </Card.Text>
                     </Card.Body>
                 </Card>

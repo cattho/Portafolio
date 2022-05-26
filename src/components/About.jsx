@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Sphere from './Sphere'
 
-const About = () => { 
-  
+const About = () => {
+
 
   return (
     <div className='skills-page'>
@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
       <div className='animationAbout'>
-        <Sphere/>
+        <Sphere />
       </div>
     </div>
   )

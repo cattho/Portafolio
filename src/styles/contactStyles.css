@@ -1,32 +1,32 @@
-.contact-page{
+.contact-page {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width:100%;
+    width: 100%;
     min-height: 100vh;
     gap: 5rem;
 }
 
-.formContainer{ 
+.formContainer {
     width: 50%;
 }
 
-.inputContact{
+.inputContact {
     background: var(--border);
     width: 95.7%;
     padding: 15px;
     margin: 10px 0;
 }
 
-form input{
+form input {
     outline: 0;
     border-width: 0px;
     color: var(--gray);
     cursor: text;
-    width: 100%;       
+    width: 100%;
 }
 
-form textarea{
+form textarea {
     resize: none;
     width: 100%;
     height: 150px;
@@ -35,39 +35,39 @@ form textarea{
     color: var(--gray);
 }
 
-form input:focus{
+form input:focus {
     border-color: var(--green);
     border-width: 0 0 2px;
     /* animation: fadeInLeft 1s; */
-} 
+}
 
-form textarea:focus{
+form textarea:focus {
     border-color: var(--green);
     border-width: 0 0 2px;
 }
 
-.ml{
+.ml {
     margin-left: 10px;
 }
 
-.mapContainer{
+.mapContainer {
     width: 50%;
 }
 
-.map{
+.map {
     width: 100%;
-    height: 500px   ;
+    height: 500px;
     background: none;
 }
 
-.buttonContainer{
+.buttonContainer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     float: right;
 }
 
-.contactButton{
+.contactButton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,10 +83,9 @@ form textarea:focus{
     cursor: pointer;
 }
 
-.contactButton:hover{
+.contactButton:hover {
     background: var(--green);
     color: var(--black);
     font-weight: bold;
     transition: background 2s;
 }
- 
